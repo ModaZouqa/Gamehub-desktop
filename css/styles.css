@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(0, 64, 255);
     font-family: 'Audiowide', cursive;
   }
 
@@ -14,4 +13,5 @@ a {
 
 footer {
     font-family: 'Abel', sans-serif;
+    background-color: black;
 }
