@@ -1,0 +1,16 @@
+footer {
+    font-family: 'Abel', sans-serif;
+    background-color: black;
+    margin-top: auto;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+    position: center;
+    justify-content: space-between;
+    padding-left: 188px;
+    padding-right: 188px;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}

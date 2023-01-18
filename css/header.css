@@ -1,0 +1,19 @@
+header {
+    padding: 90px 188px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+nav ul li {
+    text-decoration: none;
+}
