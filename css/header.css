@@ -2,18 +2,51 @@ header {
     padding: 90px 188px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.right-section, .left-section {
+    background-color: lightblue;
+    display: inline-block;
+
+}
+
+.left-section {
+    margin-right: auto;
+}
+
+div img {
+    height: 60px;
+}
+
+.middle-section {
+    background-color: lightpink;
+    margin-top: auto;
+}
+
+.right-section {
+    display: inline-block;
+    margin-top: auto;
 }
 
 nav ul {
     text-decoration: none;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex: 1;
+
 }
 
-nav ul li {
-    text-decoration: none;
+nav li {
+    display: inline-block;
+}
+
+
+i, ::placeholder {
+    color: white;
+}
+
+button, input {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
 }
